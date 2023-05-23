@@ -2,9 +2,6 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 import { UserContext } from "../lib/contex";
-import { useEffect, useState } from "react";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { auth, firestore } from "../lib/firebase";
 import { useUserData } from "../lib/hooks";
 
 function MyApp({ Component, pageProps }) {
