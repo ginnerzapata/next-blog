@@ -1,7 +1,7 @@
 import React from "react";
 
 type Props = {
-  show: true;
+  show: boolean;
 };
 
 export default function Loader({ show }: Props) {
